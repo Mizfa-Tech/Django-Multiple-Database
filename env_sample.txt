@@ -1,1 +1,4 @@
 SECRET_KEY = 'xoxoxoxoxoxox'
+
+NAME_CASS = 'xoxoxoxoxoxox'
+HOST_CASS = 'xoxoxoxoxoxox'
