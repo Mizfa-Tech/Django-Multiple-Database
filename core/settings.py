@@ -35,6 +35,7 @@ INSTALLED_APPS = [
 
     # my apps
     'users.apps.UsersConfig',
+    'imdb.apps.ImdbConfig',
 
 ]
 
@@ -129,3 +130,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'users.CustomUser'
+
+
+CASSANDRA_FALLBACK_ORDER_BY_PYTHON = True
